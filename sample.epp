@@ -1,0 +1,16 @@
+say "Hello from E++".
+
+let name be "Tom".
+say "Hi, " + name.
+
+let count be 1.
+while count <= 3 do.
+    say "Count: " + text(count).
+    count = count + 1.
+end.
+
+function double(number) do.
+    return number * 2.
+end.
+
+say double(21).
